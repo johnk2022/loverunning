@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -12,10 +13,12 @@ body {
 }
 
 /* heading and logo */
-h1, h2 {font-family: Oswald, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	color: #252525;
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
 
 #logo {
@@ -27,8 +30,9 @@ h1, h2 {font-family: Oswald, sans-serif;
 /* navigation links */
 
 #menu {
-    font-size:  110%;
-    letter-spacing: 4px;}
+    font-size: 110%;
+    letter-spacing: 4px;
+}
 
 #menu #logo {
     line-height: 75px;
@@ -62,7 +66,8 @@ h1, h2 {font-family: Oswald, sans-serif;
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -81,15 +86,17 @@ h1, h2 {font-family: Oswald, sans-serif;
 
 /* creates the level of zoom for the hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
+
     to {
-        transform: scale(1.1)}
+        transform: scale(1.1)
+    }
 }
 
 #cover-text {
-    font-size:  130%;
+    font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -110,22 +117,23 @@ h1, h2 {font-family: Oswald, sans-serif;
 
 /* club ethos */
 
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-   }
-#left-about{
+}
+
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
@@ -178,10 +186,10 @@ hr {
     font-size: 280%;
 }
 
-#center-about{
+#center-about {
     width: 33%;
     margin: 0 auto;
-    }
+}
 
 #circle-container {
     width: 300px;
@@ -193,6 +201,7 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 #circle-cover-bg {
     background: url("../images/ethos-center-image.jpg") no-repeat center center;
     height: 100%;
